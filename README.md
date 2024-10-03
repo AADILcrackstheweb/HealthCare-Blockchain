@@ -21,4 +21,24 @@ IPFS (Pinata) for distributed file storage
 Threshold cryptographic libraries (e.g. Shamir’s Secret Sharing)
 Secure database systems for off-chain data storage
 
+## Sharding Implementation
+
+This project implements data sharding to manage large healthcare datasets on a private blockchain. Sharding involves breaking down data into smaller, manageable pieces called "shards," each processed independently by different nodes, allowing for parallel processing and system scalability.
+
+### Shard Design and Creation
+Each shard contains data related to specific healthcare groups (e.g., patients from a particular hospital or region). Partitioning algorithms ensure logical data distribution, reducing cross-shard queries. In development, we used Truffle Suite and Ganache to create a private blockchain where each shard operates as an individual smart contract.
+
+### Smart Contracts
+- **ShardManager.sol**: Manages shard creation, storage, and access control. Key functions include:
+  - `createShard()`: Creates shards with specified thresholds for authorized access.
+  - `addMemberToShard()`: Adds authorized members (e.g., doctors, institutions) to access specific shards.
+  - `getShardMembers()`: Retrieves the list of members with shard access.
+  
+- **DataShard.sol**: Handles secure storage of healthcare data within each shard. Key functions include:
+  - `storeData()`: Stores data in shards, accessible only by authorized members.
+  - `isMember()`: Verifies if an address is authorized to access a shard.
+
+This approach ensures decentralized, secure, and scalable management of sensitive healthcare data across multiple nodes.
+
+
 
