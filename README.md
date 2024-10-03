@@ -40,6 +40,43 @@ Each shard contains data related to specific healthcare groups (e.g., patients f
 
 This approach ensures decentralized, secure, and scalable management of sensitive healthcare data across multiple nodes.
 
+# Blockchain-Based Healthcare System: Model Architecture
+
+## Overview
+This project outlines the architecture of a blockchain-based healthcare system, designed to manage sensitive healthcare data securely, ensure decentralized access, and provide scalability through sharding. The architecture consists of multiple layers, each serving distinct roles within the system.
+
+### 1. User Layer
+Represents the end-users who interact with the system, categorized as:
+- **Patients**: Individuals who provide health data and use the platform to access medical records, treatment plans, and health monitoring tools.
+- **Healthcare Providers**: Physicians and hospitals that access patient data for diagnosis and care management, securely exchanging medical data via the platform.
+- **Administrators**: IT personnel or healthcare administrators managing system policies, user permissions, and regulatory compliance.
+
+### 2. Application Layer
+Defines how users interact with the system through:
+- **User Interface**: Web or mobile interfaces tailored to each user type (patients, providers, administrators) for accessing relevant data and services.
+- **API Gateway**: Manages incoming API requests and facilitates secure data flow between the application and blockchain.
+
+### 3. Blockchain Layer
+The core of the system where blockchain technology ensures data security and decentralization:
+- **Smart Contracts**: Enforce access controls, business logic, and automatic execution of rules (e.g., only authorized providers access patient data).
+- **Consensus Mechanism**: Ensures data consistency across the distributed network through participant agreement on blockchain state.
+- **Data Sharding**: Enhances scalability by dividing large data sets into smaller "shards" distributed across nodes.
+- **Threshold Cryptography**: A security measure where a predefined number of participants must agree before accessing or decrypting data.
+
+### 4. Storage Layer
+Manages data storage, balancing on-chain and off-chain needs:
+- **Distributed Ledger**: The blockchain itself, storing immutable transaction data, including access logs and transactions.
+- **Off-chain Storage**: Stores large files (e.g., medical imaging, videos) off-chain, while storing file hashes on-chain for integrity and security.
+
+### 5. Integration Layer
+Facilitates interaction with external systems and ensures regulatory compliance:
+- **Healthcare Systems**: Integrates with existing healthcare infrastructure (e.g., Electronic Health Records) to ensure smooth data exchange.
+- **Regulatory Compliance**: Ensures adherence to healthcare regulations like HIPAA and GDPR, maintaining legal compliance for handling patient data.
+
+## Conclusion
+This architecture provides a secure, scalable, and efficient blockchain-based solution for managing healthcare data, ensuring that sensitive patient information is handled with the highest levels of privacy and integrity.
+
+
 
 Done by:
 Aadil Arsh SR         - 21z201 - PSG College of Technology, 
