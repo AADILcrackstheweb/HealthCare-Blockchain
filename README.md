@@ -42,11 +42,11 @@ This approach ensures decentralized, secure, and scalable management of sensitiv
 
 
 Done by:
-Aadil Arsh SR         - 21z201 - PSG College of Technology
-Aswinkumar V          - 21z212 - PSG College of Technology
-Kavin Dev R           - 21z224 - PSG College of Technology
-Mithilesh EN          - 21z229 - PSG College of Technology
-Sanjay Kumaar Eswaran - 21z248 - PSG College of Technology
+Aadil Arsh SR         - 21z201 - PSG College of Technology\n
+Aswinkumar V          - 21z212 - PSG College of Technology\n
+Kavin Dev R           - 21z224 - PSG College of Technology\n
+Mithilesh EN          - 21z229 - PSG College of Technology\n
+Sanjay Kumaar Eswaran - 21z248 - PSG College of Technology\n
 Vaikunt Ramakrishnan  - 21z266 - PSG College of Technology
 
 
