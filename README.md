@@ -42,6 +42,10 @@ This approach ensures decentralized, secure, and scalable management of sensitiv
 
 # Blockchain-Based Healthcare System: Model Architecture
 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/d6e9f6f1-01fa-4918-a46a-aa42d3096119" alt="Alt text" width="600" height="500" align="center"/>
+</div>
+
 ## Overview
 This project outlines the architecture of a blockchain-based healthcare system, designed to manage sensitive healthcare data securely, ensure decentralized access, and provide scalability through sharding. The architecture consists of multiple layers, each serving distinct roles within the system.
 
@@ -86,7 +90,7 @@ This architecture provides a secure, scalable, and efficient blockchain-based so
 
 
 
-Done by:
+**Done by:**
 Aadil Arsh SR         - 21z201 - PSG College of Technology, 
 Aswinkumar V          - 21z212 - PSG College of Technology, 
 Kavin Dev R           - 21z224 - PSG College of Technology, 
