@@ -73,6 +73,14 @@ Facilitates interaction with external systems and ensures regulatory compliance:
 - **Healthcare Systems**: Integrates with existing healthcare infrastructure (e.g., Electronic Health Records) to ensure smooth data exchange.
 - **Regulatory Compliance**: Ensures adherence to healthcare regulations like HIPAA and GDPR, maintaining legal compliance for handling patient data.
 
+## Implementation
+![image](https://github.com/user-attachments/assets/82110c18-c12e-4435-ab2e-2ec981e7f7fb)
+![image](https://github.com/user-attachments/assets/45988a21-a150-4be9-bde7-44722cb95dd4)
+![image](https://github.com/user-attachments/assets/23dcfc44-b238-4c23-9778-0e977206705e)
+![image](https://github.com/user-attachments/assets/d59c13c0-889d-40cb-a3b0-4f652c8e7140)
+
+
+
 ## Conclusion
 This architecture provides a secure, scalable, and efficient blockchain-based solution for managing healthcare data, ensuring that sensitive patient information is handled with the highest levels of privacy and integrity.
 
